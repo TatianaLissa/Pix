@@ -96,11 +96,11 @@ rows = " 5 " cols =  " 33 " > Sumiu o dinheiro, eram 4 mil e a Justiça determin
 </head>
 <body>
     <ul>
-        <li><a href="https://www.seudominio.com/pagina1.html" target="_blank" rel="noopener noreferrer">Página 1</a></li>
-        <li><a href="https://www.seudominio.com/pagina2.html" target="_blank" rel="noopener noreferrer">Página 2</a></li>
-        <li><a href="https://www.seudominio.com/pagina3.html" target="_blank" rel="noopener noreferrer">Página 3</a></li>
+        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina1.html" target="_blank" rel="noopener noreferrer">Página 1</a></li>
+        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina2.html" target="_blank" rel="noopener noreferrer">Página 2</a></li>
+        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina3.html" target="_blank" rel="noopener noreferrer">Página 3</a></li>
         <li><a
-href="https://www.seudominio.com/pagina4.html"target="_blank"
+href="https://https://github.com/Tatiana Lissa/basson/README.md/pagina4.html"target="_blank"
 tel="noopener noreferrer">Página 4</
 a></li>
     </ul>
