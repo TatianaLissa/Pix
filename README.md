@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -28,16 +28,16 @@
 </body>
 </html>
   <!-- Imagens -->
-    <img src= "https://photos.app.goo.gl/FkVneWTFUN6eAvRq7 " alt="Nosso Storyboard Completo">
-    <img src=   "https://photos.app.goo.gl/3a9iXcXZ1EoGmqdc7" alt="Frame 1 do Storyboard">
-    <img src="     "https://photos.app.goo.gl/UXMWUoAjoWzL5HHp9" alt="Frame 2 do Storyboard">
-    <img src=  "https://photos.app.goo.gl/bmgG4dVQVwxkckFXA " alt="Frame 3 do Storyboard">
-    <img src="     "https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5 " alt="Frame 4 do Storyboard">
-    <img src=    "https://photos.app.goo.gl/xo1m299acz2sa5W38 " alt="Filme Pixote">
-    <img src=    "https://photos.app.goo.gl/ci66zf2bo3Zp59638 " alt="Mulher pichando de costas">
-    <img src= "https://photos.app.goo.gl/GfyNY9h43q4JhXc56 " alt="Pixels Iluminação de uma Lâmpada">
-    <img src=  "https://photos.app.goo.gl/ZbJfEZL1zeRBz3u87 " alt="Disney- Pixar Estúdios">
-    <img src=   "https://photos.app.goo.gl/DRoZCXdaVJXe6jvm7 " alt="Carteira Pix">
+    <img src="https://photos.app.goo.gl/FkVneWTFUN6eAvRq7" alt="Nosso Storyboard Completo">
+    <img src="https://photos.app.goo.gl/3a9iXcXZ1EoGmqdc7" alt="Frame 1 do Storyboard">
+    <img src="https://photos.app.goo.gl/UXMWUoAjoWzL5HHp9" alt="Frame 2 do Storyboard">
+    <img src="https://photos.app.goo.gl/bmgG4dVQVwxkckFXA" alt="Frame 3 do Storyboard">
+    <img src="https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5" alt="Frame 4 do Storyboard">
+    <img src="https://photos.app.goo.gl/xo1m299acz2sa5W38" alt="Filme Pixote">
+    <img src="https://photos.app.goo.gl/ci66zf2bo3Zp59638" alt="Mulher pichando de costas">
+    <img src="https://photos.app.goo.gl/GfyNY9h43q4JhXc56" alt="Pixels Iluminação de uma Lâmpada">
+    <img src="https://photos.app.goo.gl/ZbJfEZL1zeRBz3u87" alt="Disney- Pixar Estúdios">
+    <img src="https://photos.app.goo.gl/DRoZCXdaVJXe6jvm7" alt="Carteira Pix">
 
 </body>
 </html>
