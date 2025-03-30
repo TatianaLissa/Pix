@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -28,25 +29,19 @@
 </body>
 </html>
   <!-- Imagens -->
-    <img src="https://photos.app.goo.gl/FkVneWTFUN6eAvRq7" alt="Nosso Storyboard Completo">
-    <img src="https://photos.app.goo.gl/3a9iXcXZ1EoGmqdc7" alt="Pix chorando ">
-    <img src="https://photos.app.goo.gl/UXMWUoAjoWzL5HHp9" alt="Pix dentro de uma caixa">
-    <img src="https://photos.app.goo.gl/bmgG4dVQVwxkckFXA" alt="Pix diz que teve uma idéia ">
-    <img src="https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5" alt="Pix fazendo pose">
-    <img src="https://photos.app.goo.gl/xo1m299acz2sa5W38" alt="Filme Pixote">
-    <img src="https://photos.app.goo.gl/ci66zf2bo3Zp59638" alt="Mulher pichando de costas">
-    <img src="https://photos.app.goo.gl/GfyNY9h43q4JhXc56" alt="Pixels Iluminação de uma Lâmpada">
-    <img src="https://photos.app.goo.gl/ZbJfEZL1zeRBz3u87" alt="Disney- Pixar Estúdios">
-    <img src="https://photos.app.goo.gl/DRoZCXdaVJXe6jvm7" alt="Carteira Pix">
+    <img src= "https://photos.app.goo.gl/FkVneWTFUN6eAvRq7 " alt="desenho numa folha dividido em 4 partes ">
+    <img src=   "https://photos.app.goo.gl/3a9iXcXZ1EoGmqdc7" alt="a personagem chorando pedindo um lugarzinho ">
+    <img src="     "https://photos.app.goo.gl/UXMWUoAjoWzL5HHp9" alt="a personagem dentro de uma caixa enquadrada">
+    <img src=  "https://photos.app.goo.gl/bmgG4dVQVwxkckFXA " alt="a personagem tendo uma idéia e com uma roupa de folhas">
+    <img src="     "https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5 " alt="a personagem faz uma pose e pergunta que tal?">
+    <img src=    "https://photos.app.goo.gl/xo1m299acz2sa5W38 " alt=" foto de menino Filme Pixote">
+    <img src=    "https://photos.app.goo.gl/ci66zf2bo3Zp59638 " alt="Mulher pichando de costas num muro bege">
+    <img src= "https://photos.app.goo.gl/GfyNY9h43q4JhXc56 " alt="uma luminária jogando luz numa parede azul de tijolos ">
+    <img src=  "https://photos.app.goo.gl/ZbJfEZL1zeRBz3u87 " alt="Disney-pixar com as atrações embaixo num fundo azul">
+    <img src=   "https://photos.app.goo.gl/DRoZCXdaVJXe6jvm7 " alt="Carteira côr de vinho Pix">
 
 </body>
 </html>
-
-
-
-
-
-
 
 
 
