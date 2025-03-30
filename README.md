@@ -37,17 +37,15 @@
 </head>
 <body>
     <div class="menu-lateral">
-        <div class="caixa">História do Pix</div>
-        <div class="caixa">Estórias</div>
-        <div class="caixa">Segurança</div>
-        <div class="caixa">Outros</div>
-    </div>
+        <div class="caixa">História do Pix </div>
+        <div class="caixa">Estórias de Pix a Personagem</div>
+        
     <div class="conteudo">
-        <!-- Saiba mais sobre o Pix, como surgiu, quais contextos anteciparam a bancarização. Saiba mais sobre a Segurança Pix e conheça as Estórias de Usuários. Você pode deixar a sua! -->
+        <!-- O Pix é rápido e simples. Basta acessar seu app do Banco e selecionar Pix e digitar a chave do favorecido. Pronto. Siga as instruções de tela e salve o comprovante, se preferir.-->
     </div>
-< label for = " Estórias " > Conte-nos a sua estória: < / label >
-< textarea id = " Estórias " name = " Estórias "
-rows = " 5 " cols =  " 33 " > Sumiu o dinheiro, eram 4 mil e a Justiça determinou que o Banco me ressarcisse em 10 mil , os 6 mil adicionais foram indenização por danos morais e prejuízo financeiro. Ninguém sabia como ia ser o funcionamento do Pix e houve um desfalque repentino. Eu tenho uma empresa aberta e meus clientes passaram a pagar por Pix. Foi tudo muito novo para mim e o Banco assumiria os riscos que o país atravessava.
+< label for = " História do Pix" > Tell me your story: < / label >
+< textarea id = " História do Pix " name = " História do Pix"
+rows = " 5 " cols =  " 33 " >  O Pix foi criado pelo Banco Central do Brasil (BC) para modernizar o Sistema Financeiro Brasileiro. O Pix é um meio de pagamento que permite transferências de dinheiro em tempo real, 24 horas por dia e 7 dias por semana. O Pix é uma evolução dos Sistemas de Pagamento como o TED e o DOC. Antes da chegada do Pix, os pagamentos eram feitos em lote. Pix não é sigla e o termo foi escolhido por lembrar pixels, os pontos luminosos na tela. 
 < / textarea >
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -68,8 +66,8 @@ rows = " 5 " cols =  " 33 " > Sumiu o dinheiro, eram 4 mil e a Justiça determin
 </head>
 <body>
     <button onclick="abrirPagina('historia')">História do Pix</button>
-    <button onclick="abrirPagina('estorias')">Estórias</button>
-    <button onclick="abrirPagina('seguranca')">Segurança</button>
+    <button onclick="abrirPagina('estorias')">Estórias do Pix</button>
+    
 
     <script>
         function abrirPagina(tipo) {
@@ -96,13 +94,9 @@ rows = " 5 " cols =  " 33 " > Sumiu o dinheiro, eram 4 mil e a Justiça determin
 </head>
 <body>
     <ul>
-        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina1.html" target="_blank" rel="noopener noreferrer">Página 1</a></li>
-        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina2.html" target="_blank" rel="noopener noreferrer">Página 2</a></li>
-        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/README.md/pagina3.html" target="_blank" rel="noopener noreferrer">Página 3</a></li>
-        <li><a
-href="https://https://github.com/Tatiana Lissa/basson/README.md/pagina4.html"target="_blank"
-tel="noopener noreferrer">Página 4</
-a></li>
+        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/main/README.md/pagina1.html" target="_blank" rel="noopener noreferrer">Página 1</a></li>
+        <li><a href="https://https://github.com/Tatiana Lissa/basson/blob/main/README.md/pagina2.html" target="_blank" rel="noopener noreferrer">Página 2</a></li>
+        <li><a 
     </ul>
 </body>
 </html>
@@ -110,8 +104,90 @@ a></li>
 </body>
 </html>
 
-</body>
-</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu de Botões</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="pagina1.html">Aba 1</a></li>
+            <li><a href="pagina2.html">Aba 2</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Botão de Menu -->
+    <a href="pagina1.html">
+        <button>Ir para a Aba 1</button>
+    </a>
 
 </body>
 </html>
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+Para inserir imagens
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Inserindo Imagens</title>
+</head>
+<body>
+    <img src=
+"https://photos.app.goo.gl/DRoZCXdaVJXe6jvm7" alt="Minha Imagem ">
+    <img src=      "https://photos.app.goo.gl/FkVneWTFUN6eAvRq7 "  alt="Minha Imagem">
+      <img src= "https://photos.app.goo.gl/3a9iXcXZ1EoGmqdc7" alt="Minha
+Imagem">
+        <img src= "https://photos.app.goo.gl/UXMWUoAjoWzL5HHp9" alt="Minha
+Imagem">
+         <img src=
+"https://photos.app.goo.gl/bmgG4dVQVwxkckFXA" alt="Minha Imagem">
+          <img src=
+"https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5" alt="Minha Imagem">
+           <img src=
+"https://photos.app.goo.gl/4KUhqQNxbm3aXyEs5" alt="Minha Imagem">
+            <img src=
+"https://photos.app.goo.gl/xo1m299acz2sa5W38" alt="Minha Imagem">
+              <img src=
+"https://photos.app.goo.gl/ci66zf2bo3Zp59638" alt="Minha Imagem ">
+               <img src=
+"https://photos.app.goo.gl/ZbJfEZL1zeRBz3u87" alt="Minha Imagem ">
+</body>
+</html>
+
