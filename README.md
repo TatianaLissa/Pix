@@ -54,7 +54,7 @@
     </div>
 
     <div class="image-container">
-        <a href="https://photos.app.goo.gl/ZnemTbvVCxfHbuVa6" target="_blank">
+        <a href="https://photos.app.goo.gl/a8xZ6PTc4J48QF2q7" target="_blank">
             <img src="https://via.placeholder.com/500x300?text=Imagem+2" alt="Imagem 2">
         </a>
     </div>
