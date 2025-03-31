@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
 </body>
 </html>
    
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>Imagens</title>
