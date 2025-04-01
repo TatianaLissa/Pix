@@ -66,7 +66,7 @@
     </div>
 
     <div class="image-container">
-        <a href="https://photos.app.goo.gl/tHpHsXnYT9BUkYaT7" target="_blank">
+        <a href="https://photos.app.goo.gl/hPyWYaiHkN5vxuX68" target="_blank">
             <img src="https://via.placeholder.com/500x300?text=Imagem+4" alt="Imagem 4">
         </a>
     </div>
