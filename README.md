@@ -1,19 +1,3 @@
-<html>
-
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-  /* ou height: 100%; se html e body estiverem com 100% */
-}
-
-
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
