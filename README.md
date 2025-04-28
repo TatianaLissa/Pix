@@ -107,8 +107,57 @@
         </a>
     </div>
 
+<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fui lesado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        label {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-top: 10px;
+            font-size: 1em;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="fuiLesado">Fui lesado:</label><br />
+            <textarea id="fuiLesado" name="fuiLesado" placeholder="Escreva aqui o que aconteceu..."></textarea>
+        </form>
+    </div>
 </body>
 </html>
 
 
+
+
+
+
+            
 
