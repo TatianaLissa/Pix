@@ -1,5 +1,3 @@
-
-
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +6,7 @@
     <style>
         body {
             background-color: pink;
-            font-family: 'Times New Roman', serif;
+            font-family: 'Times New Roman', serif; 
         }
         h1 {
             text-align: center;
