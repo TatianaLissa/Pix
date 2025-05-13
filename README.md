@@ -82,7 +82,7 @@
         </a>
     </div>
 
-    <!DOCTYPE html>
+    
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8" />
@@ -112,9 +112,33 @@
 
 <nav>
   <ul>
-    <li><a href="#" onclick="showPage('1')">1</a></li>
-    <li><a href="#" onclick="showPage('2')">2</a></li>
-    <li><a href="#" onclick="showPage('3')">3</a></li>
+    <li><a href="#" onclick="showPage('De onde vem o Pix?')">   HISTÓRIA DO PIX
+
+Sistemas de pagamento em tempo real (Real Time Payment) existem desde a década de 1970 e o seu uso global aumentou muito nos últimos anos. São Sistemas RTP:
+1.Pix : Lançado em 2020 pelo Banco Central do Brasil, que permite pagamentos instantâneos 24/7 ( 24 horas por dia e 7 dias por semana).
+2.Faster Payment System (FPS) : Lançado em 2008, o FPS é um dos primeiros sistemas de pagamento em tempo real do Reino Unido. 
+3. Immediate Payment Service (IMPS) : Lançado em 2010 pela National Payments Corporation of India (NPCI), o IMPS é um sistema de transferências eletrônicas entre bancos. 
+4.Real-Time Payments network by The Clearing House : O primeiro novo sistema de pagamentos central na América do Norte em mais de 40 anos. 
+5.FedNow Service : Lançado pelo Federal Reserve em julho de 2023. 
+6.PayNow : Lançado pela Monetary Authority of Singapore, o PayNow permite pagamentos em tempo real entre contas bancárias de bancos participantes. 
+7.Swish : Uma app móvel que permite pagamentos em tempo real entre pessoas e entre pessoas e empresas. 
+Os pagamentos em tempo real permitem a transmissão da mensagem de pagamento e a disponibilidade dos fundos quase em tempo real. 
+Embora os sistemas de pagamento em tempo real existam de alguma forma desde a década de 1970, a adoção global do RTP aumentou drasticamente na última década.
+</a></li>
+    <li><a href="#" onclick="showPage('Como e pôr quê usar o Pix')">     COMO FUNCIONA O REAL TIME PAYMENT
+
+Pagamentos em tempo real são pagamentos instantâneos processados de forma imediata e contínua, 24 horas por dia. Ao contrário dos sistemas tradicionais, que podem levar horas ou até mesmo dias para concluir transações, sistemas RTP transferem fundos imediatamente de uma conta bancária para outra. Isso pode ocorrer segundos após o início da transação, e os fundos ficam imediatamente disponíveis para o destinatário.
+
+Os sistemas de RTP permitem transferência imediata de fundos entre as partes. Para empresas que operam em diferentes canais, é uma mudança significativa em relação às formas tradicionais de gerenciar transações, reduzindo atrasos e proporcionando a tão desejada eficiência de fluxo de caixa. O processo de RTP começa quando o pagador decide enviar dinheiro ao beneficiário. O pagador pode iniciar isso em vários lugares, como plataformas bancárias online, aplicativos bancários móveis ou pessoalmente em um local físico. O pagador também pode usar dados tradicionais, como números de conta, ou métodos mais modernos, como a leitura de um código QR. O processo de RTP funciona em vários canais, sendo muito flexível e adaptável a diferentes necessidades.
+Depois que o pagador inicia o pagamento, a próxima etapa é a autenticação e autorização. O banco do pagador autentica a identidade do pagador, geralmente por meio de medidas de segurança como senhas, dados biométricos ou autenticação de dois fatores. Em seguida, o banco verifica se o pagador tem fundos suficientes para a transação. Se tudo for aprovado, o banco autoriza a transação.
+Autorizada a transação pelo banco, este envia a instrução de pagamento através do sistema de RTP, geralmente uma rede central operada por uma autoridade financeira ou um grupo de bancos. Ao contrário dos sistemas de pagamento tradicionais, os RTPs não criam lotes. As transações são processadas de forma individual e contínua, de forma que o sistema faz os pagamentos em tempo real.
+Após o processamento do pagamento, tanto o pagador quanto o beneficiário recebem notificações imediatas sobre a transação. Essa notificação pode ser um SMS, um e-mail ou uma notificação do aplicativo bancário, dependendo de como o pagamento foi iniciado. Esse recurso de notificação instantânea tranquiliza as empresas sobre suas transações financeiras e, consequentemente, suas finanças.
+A última etapa do processo de RTP é a liquidação. Ao contrário dos sistemas de pagamento tradicionais, em que a liquidação acontece ao final do dia ou até mais tarde, com o RTP, a liquidação ocorre quase instantaneamente. O banco do pagador transfere os fundos para o banco do beneficiário, e o dinheiro fica disponível imediatamente.
+O Brasil adotou o Pix no governo Bolsonaro muitos anos após o governo Cardoso haver lançado o Plano Real. 
+Foram abertos canais para o debate amplo, público, mecanismos de solução de conflitos simples foram aproximados da população.</a></li>
+    <li><a href="#" onclick="showPage('Evitando golpes')">   SENHAS
+
+   Para o autor do artigo “Usuários respeitam as normas de criação de senhas seguras? Uma Análise de datasets de senhas vazadas”, Roccia, existem perigos nas senhas fracas e ocorrem vazamentos, chamados de Data Breaches, sendo o zxcvbn um software estimador de força de senhas que retornou a ocorrência de dígitos em finais, palavras de dicionário, substituições leet e datas diversas. Essa previsibilidade aumenta o poder de cracking do algoritmo e exige a troca periódica para evitar o vazamento de hashes. </a></li>
     <li><a href="#" onclick="showPage('4')">Comunicação com as autoridades</a></li>
     <li><a href="#" onclick="showPage('5')">5</a></li>
   </ul>
