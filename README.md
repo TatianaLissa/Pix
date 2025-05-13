@@ -81,3 +81,101 @@
             <img src="https://via.placeholder.com/500x300?text=Imagem+6" alt="Imagem 6">
         </a>
     </div>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Menu Horizontal com Formulário e Banco de Dados</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; }
+  nav { background: #eee; border-bottom: 1px solid #ccc; }
+  nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+  nav ul li { flex: 1; text-align: center; }
+  nav ul li a {
+    display: block; padding: 10px 0; text-decoration: none; color: #333;
+    border-right: 1px solid #ccc;
+  }
+  nav ul li:last-child a { border-right: none; }
+  nav ul li a:hover { background: #ddd; }
+  .content { padding: 20px; }
+  form input, form textarea {
+    display: block; margin-bottom: 10px; width: 100%; max-width: 400px; padding: 8px;
+  }
+  form button { padding: 8px 16px; }
+  table { border-collapse: collapse; width: 100%; max-width: 600px; }
+  table, th, td { border: 1px solid #ccc; }
+  th, td { padding: 8px; text-align: left; }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#" onclick="showPage('1')">1</a></li>
+    <li><a href="#" onclick="showPage('2')">2</a></li>
+    <li><a href="#" onclick="showPage('3')">3</a></li>
+    <li><a href="#" onclick="showPage('4')">Comunicação com as autoridades</a></li>
+    <li><a href="#" onclick="showPage('5')">5</a></li>
+  </ul>
+</nav>
+
+<div class="content" id="content">
+  <!-- Conteúdo dinâmico será inserido aqui -->
+</div>
+
+<script>
+  function showPage(page) {
+    const content = document.getElementById('content');
+    if (page === '1' || page === '2' || page === '3') {
+      content.innerHTML = `<h2>Página ${page}</h2><p>Conteúdo da página ${page}.</p>`;
+    } else if (page === '4') {
+      content.innerHTML = `
+        <h2>Comunicação com as autoridades</h2>
+        <form id="contactForm">
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="mensagem" placeholder="Mensagem" rows="5" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <p id="formStatus"></p>
+      `;
+      document.getElementById('contactForm').onsubmit = function(e) {
+        e.preventDefault();
+        const nome = this.nome.value.trim();
+        const email = this.email.value.trim();
+        const mensagem = this.mensagem.value.trim();
+        if (nome && email && mensagem) {
+          let dados = JSON.parse(localStorage.getItem('envios') || '[]');
+          dados.push({ nome, email, mensagem, data: new Date().toLocaleString() });
+          localStorage.setItem('envios', JSON.stringify(dados));
+          this.reset();
+          document.getElementById('formStatus').textContent = 'Enviado com sucesso!';
+        }
+      };
+    } else if (page === '5') {
+      let dados = JSON.parse(localStorage.getItem('envios') || '[]');
+      if (dados.length === 0) {
+        content.innerHTML = '<h2>Banco de Dados dos envios</h2><p>Nenhum envio registrado.</p>';
+      } else {
+        let tabela = `<h2>Banco de Dados dos envios</h2><table>
+          <tr><th>Nome</th><th>Email</th><th>Mensagem</th><th>Data</th></tr>`;
+        dados.forEach(d => {
+          tabela += `<tr>
+            <td>${d.nome}</td>
+            <td>${d.email}</td>
+            <td>${d.mensagem}</td>
+            <td>${d.data}</td>
+          </tr>`;
+        });
+        tabela += '</table>';
+        content.innerHTML = tabela;
+      }
+    }
+  }
+
+  // Exibe a página 1 por padrão
+  showPage('1');
+</script>
+
+</body>
+</html>
+
